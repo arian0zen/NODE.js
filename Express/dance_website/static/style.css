@@ -1,0 +1,72 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+}
+
+#navbar{
+    background-color: rgb(216, 54, 54);
+    padding: 13px 14px;
+
+
+}
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#navbar li{
+    list-style: none;
+}
+
+
+#navbar li a {
+    text-decoration: none;
+    padding: 3px 40px;
+    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+}
+
+#navbar li a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+#introSection {
+    color: rgb(148, 206, 253);
+    background: center / cover no-repeat url("/static/bg.jpg");
+    height: 400px;
+    background-color: crimson;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
+#introSection div.small {
+    font-size: 25px;
+   
+}
+
+
+
+#sponsorsSection {
+    height: 450px;
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+#sponsorsSection h2{
+    text-align: center;
+    padding-top: 17px;
+}
+
+
+#footer{
+    height: 100px;
+    background-color: brown;
+
+}

@@ -1,0 +1,58 @@
+.body_bg{
+    background: rgb(198, 77, 77);
+}
+nav{
+    background-color: #ff4343;
+    padding: 12px 
+}
+ul{
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    list-style: none;
+    padding: 3px 12px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+h2{
+    text-align: center;
+    color: rgb(226, 212, 212);
+}
+
+
+.container{
+margin: 35px 0px; 
+}
+
+input, textarea{
+    display: block;
+    padding: 3px;
+    margin: 15px auto;
+    width: 60%;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.btn{
+    margin: 4px auto;
+    display: block;
+    padding: 5px 12px;
+    background: #dbcbcb;
+    color: rgb(104, 41, 41);
+    font-weight: bold;
+    font-size: 15px;
+    border: 2px solid rgb(197, 173, 173);
+    border-radius: 9px;
+    cursor: pointer;
+    outline: none;
+}
+
+    

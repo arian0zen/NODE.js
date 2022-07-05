@@ -1,0 +1,29 @@
+//- index.pug
+doctype html
+html
+  head
+    title  Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar.top 
+      ul  
+          li #[a(href="/") Home ]
+          li #[a(href="/") About ]
+          li #[a(href="/") Contact Us ]
+          li #[a(href="/") Services ]
+          li #[a(href="/") Class Info]
+
+    section#introSection 
+      div  Welcome to a randome dance academy
+      div.small  ABCD any body can dance
+    
+    section#sponsorsSection 
+      h2 Our Sponsors
+
+    footer#footer 
+      | Our footer is here
+
+
+    script 
+      include ../static/index.js
