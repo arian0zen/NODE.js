@@ -3,7 +3,7 @@ const path  = require("path");
 // const fs = require("fs");
 const { allowedNodeEnvironmentFlags } = require("process");
 const app = express();
-const port = 8000;
+const port = 80;
 
 
 //express
